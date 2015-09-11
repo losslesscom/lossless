@@ -1,7 +1,7 @@
 {
   "name": "lossless",
   "version": "0.0.2",
-  "description": "npm package for the lossless.com",
+  "description": "npm package for the lossless.com API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,9 @@
     "url": "https://github.com/losslesscom/lossless.git"
   },
   "keywords": [
-    "json",
-    "jade",
-    "template"
+    "lossless",
+    "musicstreaming",
+    "audiophile"
   ],
   "author": "Lossless Digital UG <office@lossless.digital> (https://lossless.digital)",
   "license": "MIT",
