@@ -1,6 +1,6 @@
 {
   "name": "lossless",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "npm package for the lossless.com API",
   "main": "index.js",
   "scripts": {
