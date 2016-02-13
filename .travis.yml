@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- 4.2.6
+deploy:
+  provider: npm
+  email: npm@lossless.digital
+  api_key:
+    secure: EOwFaa9CT0QRMgUG6/UyRILHC6cHXzy7M31s46vEOwSHA8NUceF2b8bZ6UY3oD88aNCifab9jYEA7SikNagdYrSnE/QaL08c/zBTLgE6stXD53mDpmlFnrcgCYBBi9WRn+7oM+Js5w7cnZLWFuzvpg29mN/xwLYkM4I2xT4FcPtkE3RFPoz07WSywCC1ElwSxPgdLonZG0EDKb+HJGm0CfHEqd87CVL5T2R4RIAFizHplL2Fr0ULgOBlpfMamQBODFaFdESatl/b/kj/GYy3hdM7kMmfjDuwKqP40KtTVnY6+P298yC9pPGKdp/Q75L5c2XMcQsm/GO8tA+KZcefYd7W3TfJYbNA8TRaIziKDzp1qG2Ldc7EHXavJsPOImR8bfckz7/zzmfvMEA2lrvUT2X4qePGljcKiqaCeJMzl8iUx0YKImf9pZWAV/NrCFmEKbC+U9Jy/9iGkvIMrlZTNJcpkIhWUWQsrMlBRB5PHEc7TV0LiNl0Hk6y5/1FTYyetdg7cCy0HsxrN+sdGbkJiucDP0tKgi5tDuTQga/egtq39mOzSEOCFquUpJxUJVpf1TTBO7u+Evk8OPUNL+MPxTaadBiK8wi/PMuFJlEnBZ1KT8VN61HtnPEA7NB5kJ6BuyV4RLWDVvaLHWneYkLVOYUFJPdlcrwj7DnmeLu7+E0=
+  on:
+    tags: true
+    repo: losslesscom/lossless-npm
