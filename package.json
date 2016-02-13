@@ -4,7 +4,7 @@
   "description": "npm package for the lossless.com API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "(npmts)"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/losslesscom/lossless/issues"
   },
-  "homepage": "https://github.com/losslesscom/lossless"
+  "homepage": "https://github.com/losslesscom/lossless",
+  "devDependencies": {
+    "npmts": "^2.2.3"
+  }
 }
