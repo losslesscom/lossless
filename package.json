@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/losslesscom/lossless",
   "devDependencies": {
-    "npmts": "^2.2.3"
+    "npmts": "^3.1.2"
   }
 }
