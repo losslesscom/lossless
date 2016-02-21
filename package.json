@@ -2,7 +2,7 @@
   "name": "lossless",
   "version": "0.0.4",
   "description": "npm package for the lossless.com API",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "(npmts)"
   },
@@ -15,7 +15,7 @@
     "musicstreaming",
     "audiophile"
   ],
-  "author": "Lossless Digital UG <office@lossless.digital> (https://lossless.digital)",
+  "author": "Lossless GmbH <office@lossless.com> (https://lossless.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/losslesscom/lossless/issues"
